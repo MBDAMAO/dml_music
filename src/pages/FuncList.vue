@@ -27,7 +27,7 @@ function goto(item) {
             router.push('/sub/perfect'); // 跳转到首页
             break;
         case 2:
-            router.push('/menu/about'); // 跳转到关于页
+            router.push('/sub/tone'); // 跳转到关于页
             break;
         case 3:
             router.push('/menu/contact'); // 跳转到联系页

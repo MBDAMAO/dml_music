@@ -179,6 +179,7 @@ onMounted(() => {
         updateCurrentPitch()
     }, 200)
 })
+import Tone from './Tone.vue'
 </script>
 
 <template>
@@ -207,7 +208,7 @@ onMounted(() => {
             </div>
             <!-- 右侧：音高变化折线图 -->
             <div class="h-full w-1/2">
-                <canvas ref="chartCanvas" class="h-full w-full"></canvas>
+                <Tone />
             </div>
         </div>
     </div>

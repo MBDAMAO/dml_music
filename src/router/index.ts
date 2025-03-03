@@ -47,6 +47,11 @@ const router = createRouter({
                     name: "perfect",
                     component: () => import("@/pages/Perfect.vue"),
                 },
+                {
+                    path: "tone",
+                    name: "tone",
+                    component: () => import("@/pages/Tone.vue"),
+                },
             ],
         },
     ],
